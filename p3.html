@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Yiqing Zhou | Code 2 Portfolio</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- navigation menu -->
+    <div class="nav">
+      
+      <h3><a href="index.html">Yiqing Zhou</a></h3>
+      <ul>
+        <li><a href="p1.html">01 Lost and Found </a></li>
+        <li><a href="p2.html">02 Face Genenrator</a></li>
+        <li><a href="p3.html" style="color:rgb(195,160,99)">03 Experimental Clock</a></li>
+        <li><a href="p4.html">04 Exquisite Corpse</a></li>
+        <li><a href="p5.html">05 Optical Illusion</a></li>
+        <li><a href="p6.html">06 Data Portrait</a></li>
+        <li><a href="p7.html">07 Autobiographical Game</a></li>
+        <li><a href="p8.html">08 Experimental Camera</a></li>
+        <li><a href="p9.html">09 Consentful Interface</a></li>
+        <li><a href="p9.html">10 Anti-Surveillance Tool</a></li>
+      </ul>
+    </div>
+
+    <!-- main content -->
+    <div class="content">
+      <!-- 1. give your project  a titile -->
+      <h4>
+        <span style="font-size: 18pt; color:rgb(195,160,99)">
+          |&nbsp Project 03
+        </span>
+        <br>Experimental Clock
+      </h4>
+      
+      <!-- 2. embed your p5 sketch -->
+
+      <div class="fullwidth">
+        <!-- below width and height refers to the dimensions of your sketch-->
+
+        <iframe
+          allow="camera"
+          width="400px"
+          height="400px"
+          src="https://preview.p5js.org/yiqingzhou/embed/2mMNU9PHv">
+        </iframe>
+        
+      </div>
+
+      <!-- 4. reflection -->
+      <h1>
+        <span style="color:rgb(195,160,99)">|&nbsp</span>
+        Description
+      </h1>
+      <p>
+        In ancient China, incense was used as a timekeeper. An incense stick burns out 
+        indicates that 5 minutes have passed. Nowadays, we will still say "before the incense is burnt", 
+        which means "in 5 minutes". 
+      </p>
+      <p>
+        In this project, I reproduced the incense timekeeper. The incense 
+        stick slowly burns, and it takes 5 minutes for it to completely burns out. And the color pallet will 
+        change according to the time of day. 
+        <div class="fullwidth">
+          <img width="300px"
+               style="object-fit: cover;"
+               src=https://cdn.glitch.com/213fc27b-b238-4573-8d3f-2b3f35a789bd%2FScreen%20Shot%202021-09-19%20at%2010.08.27%20PM.png?v=1632167589689>
+          <img width="300px"
+               style="object-fit: cover;"
+               src=https://cdn.glitch.com/213fc27b-b238-4573-8d3f-2b3f35a789bd%2FScreen%20Shot%202021-09-19%20at%2010.33.26%20PM.png?v=1632167589706>
+      </div>
+      </p>
+      
+      <h1>
+        <span style="color:rgb(195,160,99)">|&nbsp</span>
+        Design Process
+      </h1>
+
+      <p>
+        I started by brandstorming possible ways to reflect time. I came up with 6 ideas and made the 
+        sketch. After discussion in class, I picked the forth idea and moved forward, because "the incense clock" is not so widely-known and it relates to my own cultural heritage. 
+        <div class="fullwidth"><img src=https://cdn.glitch.me/213fc27b-b238-4573-8d3f-2b3f35a789bd%2Fsketch.jpeg?v=1633985123658></div>
+      </p>
+      <p>
+        While coding, I started with the incense burner. I drawed it using the curveVertex() fuction, but the curves turned 
+        out to be not smooth enough, so I added a rectangle with rounded corner on the top, to make it looks more refined. 
+        <div class="fullwidth"><img src=https://cdn.glitch.com/213fc27b-b238-4573-8d3f-2b3f35a789bd%2FScreen%20Shot%202021-09-20%20at%204.09.53%20PM.png?v=1632168617515></div>
+      </p>
+      <p>
+        Then I drawed the line to represent the incense. I used the map() function to set the time for it to disappear. 
+      </p>
+    
+      <h1>
+        <span style="color:rgb(195,160,99)">|&nbsp</span>
+        Reflection
+      </h1>
+      <p>
+        While discussing about the ideas, I realised that a clock doesn't neccessarily have to reflect time of a day. It can also be just about your
+         personal, internal rhythms. I've seen so many great work revealing their own habits and emotions. That is mind-blowing to me. 
+      </p>
+      
+      <h1>
+        <span style="color:rgb(195,160,99)">|&nbsp</span>
+        Credits
+      </h1>
+      <p>
+        This project is created by Yiqing Zhou. 
+      </p>
+      
+    </div>
+  </body>
+</html>
